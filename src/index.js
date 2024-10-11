@@ -1,7 +1,7 @@
 const express = require("express");
 const cors = require("cors");
 const dbQueries = require("./db/queries");
-const { minuteLimiter, dayLimiter } = require("./middleware/rateLimiter");
+const { minuteLimiter, dayLimiter } = require("./ratelimiter");
 const logger = require("./logger");
 
 const app = express();
