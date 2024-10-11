@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +15,9 @@
     "cors": "^2.8.5",
     "express": "^4.21.0",
     "morgan": "^1.10.0",
+    "rate-limiter-flexible": "^5.0.3",
     "sequelize": "^6.37.4",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^5.1.7",
+    "winston": "^3.15.0"
   }
 }

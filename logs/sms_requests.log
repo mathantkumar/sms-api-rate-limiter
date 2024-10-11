@@ -1,0 +1,4 @@
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"warn","message":"Rate limit exceeded for 1234567890 from ::1. Retry after 58 seconds."}

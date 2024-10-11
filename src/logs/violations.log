@@ -1,0 +1,23 @@
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 1, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 1 from ::1. Retry after 57 seconds."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 1, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 1 from ::1. Retry after 52 seconds."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 1, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 1 from ::1. Retry after 51 seconds."}
+{"level":"warn","message":"Invalid request from ::1: Missing phone number."}
+{"level":"warn","message":"Invalid request from ::1: Missing phone number."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 1, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 1 from ::1. Retry after 57 seconds."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 3, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 3 from ::1. Retry after 56 seconds."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 3, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 3 from ::1. Retry after 50 seconds."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 3, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 3 from ::1. Retry after 13152 seconds."}
+{"level":"warn","message":"Invalid request from ::1: Missing phone number."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 2, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 2 from ::1. Retry after 56 seconds."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 1, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 1 from ::1. Retry after 12560 seconds."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 1, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 1 from ::1. Retry after 12553 seconds."}

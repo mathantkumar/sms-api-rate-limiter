@@ -1,0 +1,42 @@
+{"level":"info","message":"SMS sent: 1 from ::1"}
+{"level":"info","message":"SMS sent: 1 from ::1"}
+{"level":"info","message":"SMS sent: 1 from ::1"}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 1, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 1 from ::1. Retry after 57 seconds."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 1, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 1 from ::1. Retry after 52 seconds."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 1, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 1 from ::1. Retry after 51 seconds."}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"info","message":"SMS sent: 123 from ::1"}
+{"level":"info","message":"SMS sent: 12 from ::1"}
+{"level":"warn","message":"Invalid request from ::1: Missing phone number."}
+{"level":"info","message":"SMS sent: 12 from ::1"}
+{"level":"info","message":"SMS sent: 12 from ::1"}
+{"level":"warn","message":"Invalid request from ::1: Missing phone number."}
+{"level":"info","message":"SMS sent: 1 from ::1"}
+{"level":"info","message":"SMS sent: 1 from ::1"}
+{"level":"info","message":"SMS sent: 1 from ::1"}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 1, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 1 from ::1. Retry after 57 seconds."}
+{"level":"info","message":"SMS sent: 3 from ::1"}
+{"level":"info","message":"SMS sent: 3 from ::1"}
+{"level":"info","message":"SMS sent: 3 from ::1"}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 3, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 3 from ::1. Retry after 56 seconds."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 3, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 3 from ::1. Retry after 50 seconds."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 3, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 3 from ::1. Retry after 13152 seconds."}
+{"level":"info","message":"SMS sent: 2 from ::1"}
+{"level":"warn","message":"Invalid request from ::1: Missing phone number."}
+{"level":"info","message":"SMS sent: 2 from ::1"}
+{"level":"info","message":"SMS sent: 2 from ::1"}
+{"level":"info","message":"SMS sent: 2 from ::1"}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 2, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 2 from ::1. Retry after 56 seconds."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 1, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 1 from ::1. Retry after 12560 seconds."}
+{"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 1, Violation: rate limit exceeded"}
+{"level":"warn","message":"Rate limit exceeded for 1 from ::1. Retry after 12553 seconds."}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
