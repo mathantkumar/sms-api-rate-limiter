@@ -3,20 +3,17 @@ const cors = require("cors");
 const dbQueries = require("./db/queries");
 const { minuteLimiter, dayLimiter } = require("./ratelimiter");
 const logger = require("./logger");
+const app = express();
 
 app.use(
   cors({
-    origin: "https://sms-dashboard-ten.vercel.app/",
+    origin: "https://sms-dashboard-ten.vercel.app",
     methods: ["GET", "POST", "OPTIONS"],
     allowedHeaders: ["Content-Type"],
   })
 );
-
-const app = express();
-
-app.use(express.json());
-
 app.options("*", cors());
+app.use(express.json());
 
 // Send SMS
 app.post("/send-sms", async (req, res) => {
