@@ -12,6 +12,7 @@ app.use(
     allowedHeaders: ["Content-Type"],
   })
 );
+app.use(cors());
 app.options("*", cors());
 app.use(express.json());
 
