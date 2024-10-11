@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "sms-dashboard-ten.vercel.app",
+    origin: "https://sms-dashboard-ten.vercel.app/",
     methods: ["GET", "POST", "OPTIONS"],
     allowedHeaders: ["Content-Type"],
   })
