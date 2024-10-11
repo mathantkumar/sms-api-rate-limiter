@@ -1,4 +1,4 @@
-const db = require("../index");
+const db = require("./index");
 
 const getSmsCountInLastMinute = async () => {
   return new Promise((resolve, reject) => {

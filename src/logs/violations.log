@@ -21,3 +21,7 @@
 {"level":"warn","message":"Rate limit exceeded for 1 from ::1. Retry after 12560 seconds."}
 {"level":"warn","message":"Rate Limit Violation - IP: ::1, Phone: 1, Violation: rate limit exceeded"}
 {"level":"warn","message":"Rate limit exceeded for 1 from ::1. Retry after 12553 seconds."}
+{"level":"error","message":"Internal server error for 1234567890 from ::1: TypeError: Cannot read properties of undefined (reading 'consume')"}
+{"level":"error","message":"Internal server error for 1234567890 from ::1: ReferenceError: db is not defined"}
+{"level":"error","message":"Internal server error for 1234567890 from ::1: ReferenceError: db is not defined"}
+{"level":"warn","message":"Rate limit exceeded for 2 from ::1. Retry after 55 seconds."}

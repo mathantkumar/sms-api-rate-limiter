@@ -30,4 +30,7 @@ const logViolation = (ip, phone, violationType) => {
   );
 };
 
-module.exports = { logger, logViolation };
+module.exports = {
+  logger,
+  logViolation,
+};
