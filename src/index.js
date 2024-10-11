@@ -5,6 +5,7 @@ const db = require("./db");
 const { minuteLimiter, dayLimiter } = require("./ratelimiter");
 const { RateLimiterRes } = require("rate-limiter-flexible");
 const { logger, logViolation } = require("./logger");
+
 const app = express();
 
 app.use(
@@ -14,23 +15,6 @@ app.use(
     allowedHeaders: ["Content-Type"],
   })
 );
-app.use((req, res, next) => {
-  res.header(
-    "Access-Control-Allow-Origin",
-    "https://sms-dashboard-ten.vercel.app"
-  );
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
-  );
-  next();
-});
-
-app.options("/send-sms", cors());
-app.options("/stats", cors());
-app.options("/violations", cors());
-app.use(cors());
-app.options("*", cors());
 app.use(express.json());
 
 // Send SMS
