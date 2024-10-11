@@ -12,6 +12,9 @@ app.use(
     allowedHeaders: ["Content-Type"],
   })
 );
+app.options("/send-sms", cors());
+app.options("/stats", cors());
+app.options("/violations", cors());
 app.use(cors());
 app.options("*", cors());
 app.use(express.json());
