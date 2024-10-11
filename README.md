@@ -80,5 +80,6 @@ The application uses SQLite for data storage. The database schema will be create
 
 ### Usage
 
-1. Enter a phone number in the input field and click "Send SMS" to send an SMS message.
-2. Monitor SMS usage and rate limit violations displayed on the dashboard.
+1. Once the website is launched in the main page you can see button called 'Try It Now'. Click the button to view Dashboard.
+2.  Enter a phone number in the input field and click "Send SMS" to send an SMS message.
+3. Monitor SMS usage and rate limit violations displayed on the dashboard.
