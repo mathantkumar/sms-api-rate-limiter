@@ -4,9 +4,6 @@ const dbQueries = require("./db/queries");
 const { minuteLimiter, dayLimiter } = require("./ratelimiter");
 const logger = require("./logger");
 
-const app = express();
-
-app.use(express.json());
 app.use(
   cors({
     origin: "https://sms-dashboard-ten.vercel.app/",
@@ -14,6 +11,10 @@ app.use(
     allowedHeaders: ["Content-Type"],
   })
 );
+
+const app = express();
+
+app.use(express.json());
 
 app.options("*", cors());
 
