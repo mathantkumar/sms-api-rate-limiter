@@ -12,10 +12,11 @@ const getSmsCountInLastMinute = async () => {
   });
 };
 
-const getTotalSmsCountLast24Hours = async () => {
+const getTotalSmsCountLast24Hours = async (ip) => {
   return new Promise((resolve, reject) => {
     db.all(
-      "SELECT COUNT(*) as count FROM sms_requests WHERE timestamp >= datetime('now', '-1 day')",
+      "SELECT COUNT(*) as count FROM sms_requests WHERE ip = ? AND timestamp >= datetime('now', '-1 day')",
+      [ip], // Pass the IP as a parameter
       (err, rows) => {
         if (err) return reject(err);
         resolve(rows[0].count);

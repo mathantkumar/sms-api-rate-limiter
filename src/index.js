@@ -10,14 +10,13 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://sms-dashboard-ten.vercel.app",
+    origin: " http://localhost:3000",
     methods: ["GET", "POST", "OPTIONS"],
     allowedHeaders: ["Content-Type"],
   })
 );
 app.use(express.json());
 
-// Send SMS
 app.post("/send-sms", async (req, res) => {
   const { phone } = req.body;
   const ip = req.ip;
@@ -28,6 +27,15 @@ app.post("/send-sms", async (req, res) => {
   }
 
   try {
+    const totalTodayCount = await dbQueries.getTotalSmsCountLast24Hours(ip);
+
+    if (totalTodayCount >= 10) {
+      logger.warn(`Daily limit exceeded for ${phone} from ${ip}.`);
+      return res
+        .status(429)
+        .send("Daily limit exceeded. Please try again later.");
+    }
+
     await Promise.all([
       minuteLimiter.consume(`${ip}-${phone}`),
       dayLimiter.consume(`${ip}-${phone}`),

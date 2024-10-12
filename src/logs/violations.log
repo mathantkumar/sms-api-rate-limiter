@@ -25,3 +25,8 @@
 {"level":"error","message":"Internal server error for 1234567890 from ::1: ReferenceError: db is not defined"}
 {"level":"error","message":"Internal server error for 1234567890 from ::1: ReferenceError: db is not defined"}
 {"level":"warn","message":"Rate limit exceeded for 2 from ::1. Retry after 55 seconds."}
+{"level":"warn","message":"Rate limit exceeded for 1234567889 from ::1. Retry after 43 seconds."}
+{"level":"warn","message":"Rate limit exceeded for 1234567889 from ::1. Retry after 39 seconds."}
+{"level":"warn","message":"Rate limit exceeded for 1234567890 from ::1. Retry after 29 seconds."}
+{"level":"warn","message":"Rate limit exceeded for 1234567890 from ::1. Retry after 54047 seconds."}
+{"level":"warn","message":"Rate limit exceeded for 1234567890 from ::1. Retry after 54042 seconds."}

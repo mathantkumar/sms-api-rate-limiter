@@ -53,3 +53,25 @@
 {"level":"info","message":"SMS sent: 2 from ::1"}
 {"level":"info","message":"SMS sent: 2 from ::1"}
 {"level":"warn","message":"Rate limit exceeded for 2 from ::1. Retry after 55 seconds."}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"info","message":"SMS sent: 1234567889 from ::1"}
+{"level":"info","message":"SMS sent: 1234567889 from ::1"}
+{"level":"info","message":"SMS sent: 1234567889 from ::1"}
+{"level":"warn","message":"Rate limit exceeded for 1234567889 from ::1. Retry after 43 seconds."}
+{"level":"warn","message":"Rate limit exceeded for 1234567889 from ::1. Retry after 39 seconds."}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"warn","message":"Rate limit exceeded for 1234567890 from ::1. Retry after 29 seconds."}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"info","message":"SMS sent: 9999999999 from ::1"}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"info","message":"SMS sent: 1234567890 from ::1"}
+{"level":"info","message":"SMS sent: 9999999999 from ::1"}
+{"level":"warn","message":"Rate limit exceeded for 1234567890 from ::1. Retry after 54047 seconds."}
+{"level":"warn","message":"Rate limit exceeded for 1234567890 from ::1. Retry after 54042 seconds."}
